@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "addition page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">The Squareroot page</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <form asp-controller="Root"asp-action="SquareRoot"method="post">
+
+         <input type="number"placeholder="first Number"name="firstNumber"/>
+        <input type="number"placeholder="second Number"name="secondNumber"/>
+        <button type="submit">Submit</button>
+
+    </form>
+   
+</div>
